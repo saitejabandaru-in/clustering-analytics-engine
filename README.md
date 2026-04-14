@@ -96,7 +96,102 @@ Evaluation (Silhouette + Metrics)
 ↓
 Visualization (Scatter + Comparison Charts)
 
+```
 
 ---
 
 ## 🗂️ Project Structure
+
+```
+
+data/
+├── synthetic_clusters.csv
+└── preprocessing.py
+
+algorithms/
+├── kmeans_plus.py
+├── dbscan_tuner.py
+├── hierarchical.py
+├── spectral.py
+└── gmm.py
+
+evaluation/
+├── silhouette.py
+└── benchmarks.py
+
+visualization/
+└── scatter_plots.py
+
+tests/
+
+````
+
+---
+
+## 🚀 Quick Start
+
+### Install dependencies
+```bash
+pip install -r requirements.txt
+````
+
+### Run benchmarking pipeline
+
+```bash
+python -m clustering.benchmark --dataset synthetic --algorithms all
+```
+
+---
+
+## 🧪 Tech Stack
+
+* Python 3.10+
+* scikit-learn
+* UMAP / t-SNE
+* Plotly
+* Pandas / NumPy
+
+---
+
+## 📈 What This Project Demonstrates
+
+✔ Unsupervised learning expertise
+✔ Clustering algorithm benchmarking
+✔ High-dimensional data analysis
+✔ Dimensionality reduction techniques
+✔ Data visualization for insights
+✔ End-to-end data science workflows
+
+---
+
+## 👨‍💻 Author
+
+**Sai Teja Bandaru**
+*Data Scientist & AI Researcher*
+
+🌐 Portfolio: [https://www.saitejabandaru.com/](https://www.saitejabandaru.com/)
+💼 LinkedIn
+💻 GitHub
+
+---
+
+## 📄 License
+
+MIT License — see `LICENSE` for details.
+
+---
+
+## ⭐ Support
+
+If you find this useful:
+
+⭐ Star the repo
+🍴 Fork it
+📢 Share it
+
+---
+
+> Turning complex data into meaningful clusters and actionable insights.
+
+```
+```
